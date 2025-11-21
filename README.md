@@ -1,4 +1,4 @@
-https://medium.com/@yaswanth.arumulla/how-to-deploy-a-full-microservices-e-commerce-application-11-services-on-aws-eks-af1ba4c87ccf
+https://medium.com/@pavan.arumulla/how-to-deploy-a-full-microservices-e-commerce-application-11-services-on-aws-eks-af1ba4c87ccf
 
 YouTube: https://youtu.be/N9JqIV7eM-8?si=ep4HG0y5qK87PyQp
 
