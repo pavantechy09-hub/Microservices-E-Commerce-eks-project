@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'master', url: 'https://github.com/arumullapavan/Microservices-E-Commerce-eks-project.git'
+                git branch: 'master', url: 'https://github.com/pavantechy09-hub/Microservices-E-Commerce-eks-project.git'
             }
         }
         stage("Docker Image Build") {
@@ -42,8 +42,8 @@ pipeline {
         stage('Update Deployment file') {
             environment {
                 GIT_REPO_NAME = "Microservices-E-Commerce-eks-project"
-                GIT_EMAIL = "pavan.arumulla@gmail.com"
-                GIT_USER_NAME = "arumullapavan"
+                GIT_EMAIL = "pavantechy09@gmail.com"
+                GIT_USER_NAME = "pavantechy09-hub"
                 IMAGE_NAME = "loadgenerator"
                 REPO_URL = "085089485008.dkr.ecr.us-east-1.amazonaws.com/loadgenerator"
                 YAML_FILE = "loadgenerator.yaml"
